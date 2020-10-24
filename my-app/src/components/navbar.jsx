@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -33,12 +37,20 @@ const NavItem = styled.p`
 
 export const NavBar = () => {
     return (
-        <Container>
-            <NavItemContainer>
-                <NavItem>About us</NavItem>
-                <NavItem>Government Guidelines</NavItem>
-                <NavItem>Contact Us</NavItem>
-            </NavItemContainer>
-        </Container>
+        <Router>
+            <Container>
+                <NavItemContainer>
+                    <Link to="/about" style={{textDecoration: "none"}}>
+                        <NavItem>About us</NavItem>
+                    </Link>
+                    <Link to="/guidelines" style={{textDecoration: "none"}}>
+                        <NavItem>Government Guidelines</NavItem>
+                    </Link>
+                    <Link to="/contact" style={{textDecoration: "none"}}>
+                        <NavItem>Contact Us</NavItem>
+                    </Link>
+                </NavItemContainer>
+            </Container>
+        </Router>
     )
 };
