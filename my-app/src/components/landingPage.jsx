@@ -3,6 +3,7 @@ import { NavBar } from './navbar';
 import styled from "styled-components";
 import { Button } from './button';
 import mobilePhone from '../img/mobile-phone.svg';
+import logo from '../img/logo.svg';
 
 const GreenPage = styled.div`
     position: absolute;
@@ -55,8 +56,22 @@ const SubHeading = styled.div`
     margin-bottom: 24px;
 `;
 
+const ImageContainer = styled.div`
+    position: relative;
+    top: 0;
+    left: 0;
+`;
+
 const MobilePhoneImage = styled.img`
     padding: 30px;
+    top: 0;
+    left: 0;
+`;
+
+const SmallLogo = styled.img`
+   position: absolute;
+   right: 100px;
+   top: 230px;
 `;
 
 
@@ -72,9 +87,10 @@ export const LandingPage = () => {
                         <Button buttonText={"Learn more!"}/>
                     </ButtonPositioning>
                 </TextWrapper>
-           
+                    <ImageContainer>
                     <MobilePhoneImage src={mobilePhone} alt="Mobile phone"/>
-            
+                        <SmallLogo src={logo} alt="Small logo" ></SmallLogo>
+                    </ImageContainer>
             </ContentWrapper>
         </GreenPage>
     )
