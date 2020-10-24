@@ -6,11 +6,12 @@ import {
 import styled from "styled-components";
 
 const Container = styled.div`
+    z-index: 10;
     background: transparent;
     position: absolute;
     top: 0px;
     width: 100vw;
-    height: 15%;
+    height: 100px;
     align-items: flex-end;
     display: flex;
     justify-content: flex-end;

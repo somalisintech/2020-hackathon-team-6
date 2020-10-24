@@ -1,17 +1,12 @@
 import React from 'react';
-import { NavBar } from './navbar';
 import styled from "styled-components";
 import { Button } from './button';
 import mobilePhone from '../img/mobile-phone.svg';
 import logo from '../img/logo.svg';
 
 const GreenPage = styled.div`
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
     background: #00CECB;
+    height: 100vh;
   `;
 
 const ButtonPositioning = styled.div`
@@ -20,12 +15,12 @@ const ButtonPositioning = styled.div`
     margin-top: 24px;
 `;
 
-
 const ContentWrapper = styled.div`
     position: relative;
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin: 0px 100px;
+    padding-top: 100px;
 `;
 
 const TextWrapper = styled.div`
@@ -78,7 +73,6 @@ const SmallLogo = styled.img`
 export const LandingPage = () => {
     return (
         <GreenPage>
-            <NavBar/>
             <ContentWrapper>
                 <TextWrapper>
                     <Heading>Speak to us, we can help you</Heading>

@@ -1,6 +1,8 @@
 import { HomePage } from './components/homepage';
 import './App.css';
 import { createGlobalStyle } from "styled-components";
+import { NavBar } from './components/navbar';
+import { Footer } from './components/footer';
 
 
 
@@ -15,7 +17,9 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles/>
+      <NavBar />
       <HomePage/>
+      <Footer/>
     </div>
   );
 }
