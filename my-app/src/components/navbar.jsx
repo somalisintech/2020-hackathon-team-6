@@ -54,7 +54,7 @@ const NavItemContainer = styled.div`
     flex-direction: row;
     justify-content: space-between;
     margin-right: 100px;
-    width: 500px;
+    width: 600px;
 `;
 
 const NavItem = styled.p`
