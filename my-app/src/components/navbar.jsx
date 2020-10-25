@@ -4,25 +4,25 @@ import {
     Link
   } from "react-router-dom";
 import styled from "styled-components";
+import cdLogo from '../img/cd-logo.svg';
 
 const Container = styled.div`
     z-index: 10;
     background: transparent;
     position: absolute;
     top: 0px;
-    width: 100vw;
-    height: 100px;
     align-items: flex-end;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 100vw;
   `;
 
 const NavItemContainer = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
     margin-right: 100px;
+    width: 500px;
 `;
 
 const NavItem = styled.p`
@@ -35,11 +35,20 @@ const NavItem = styled.p`
     color: #FFFFFF;
 `;
 
+const LogoContainer = styled.div`
+    position: relative;
+    top: 40px;
+    left: 80px;
+`;
+
 
 export const NavBar = () => {
     return (
         <Router>
             <Container>
+                <LogoContainer>
+                    <img src={cdLogo} alt="Caafimaad Direct Logo"></img>
+                </LogoContainer>
                 <NavItemContainer>
                     <Link to="/about" style={{textDecoration: "none"}}>
                         <NavItem>About us</NavItem>

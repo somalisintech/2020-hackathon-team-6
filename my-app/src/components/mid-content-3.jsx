@@ -10,7 +10,7 @@ export const MidContent3 = () => {
         </ImageContainer>
         <TextContainer>
             <Heading>We are here to help</Heading>
-            <SubHeading>Our chat services will conncet you to qualified health 
+            <SubHeading>Our chat services will connect you to qualified health 
                 professions who will give you appropriate health guidance.
             </SubHeading>
         </TextContainer>
