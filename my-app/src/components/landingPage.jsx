@@ -112,10 +112,10 @@ export const LandingPage = () => {
                         <Button buttonText={"Learn more!"}/>
                     </ButtonPositioning>
                 </TextWrapper>
-                    <ImageContainer>
-                    <MobilePhoneImage src={mobilePhone} alt="Mobile phone"/>
-                        <SmallLogo src={logo} alt="Small logo" ></SmallLogo>
-                    </ImageContainer>
+                <ImageContainer>
+                <MobilePhoneImage src={mobilePhone} alt="Mobile phone"/>
+                    <SmallLogo src={logo} alt="Small logo" ></SmallLogo>
+                </ImageContainer>
             </ContentWrapper>
         </GreenPage>
     )
