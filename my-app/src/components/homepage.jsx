@@ -9,7 +9,7 @@ export const HomePage = () => {
     useEffect(() => {
         const script = document.createElement('script');
 
-        script.src = "https://widget.flowai.app/w/YTZUeldSMjRkfGNzV2VXZjc4aA==/flow-webclient-1.1.2.min.js"
+        script.src = "https://widget.flowai.app/w/YVVrN1dJeUdkfGNyMGJpTjNOWQ==/flow-webclient-1.1.2.min.js"
         script.async = true 
 
         document.body.appendChild(script);
