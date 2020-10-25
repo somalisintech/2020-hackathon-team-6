@@ -11,7 +11,7 @@ export const MidContent3 = () => {
         <TextContainer>
             <Heading>We are here to help</Heading>
             <SubHeading>Our chat services will connect you to qualified health 
-                professions who will give you appropriate health guidance.
+                professionals who will give you appropriate health guidance.
             </SubHeading>
         </TextContainer>
     </ContentWrapper>
