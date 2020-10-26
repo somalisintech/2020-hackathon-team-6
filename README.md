@@ -1,4 +1,4 @@
-# CaafimaadDirect 
+# Caafimaad Direct 
 ## 2020 SiT Hackathon - Team Six 
 
 Caafimaad Direct allows you to anonymously chat and receive vital information about Covid-19 in real-time via an AI chatbot.
