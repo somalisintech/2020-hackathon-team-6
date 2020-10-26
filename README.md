@@ -1,1 +1,9 @@
-# 2020 SiT Hackathon - CaafimaadDirect - Team Six 
+# CaafimaadDirect 
+## 2020 SiT Hackathon - Team Six 
+
+Caafimaad Direct allows you to anonymously chat and receive vital information about Covid-19 in real-time.
+
+Deployed here: http://caafimaad-direct.surge.sh/
+
+![Caafimaad Direct 1](my-app/src/img/Caafimaad-Direct-Pitch-Deck-1.svg)
+![Caafimaad Direct 2](my-app/src/img/Caafimaad-Direct-Pitch-Deck-2.svg)
